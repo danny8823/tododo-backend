@@ -47,7 +47,7 @@ const todoController = {
         }
     }),
     delete: asyncHandler(async(req,res) => {
-        const {id} = req.body
+        const {id} = req.query
         if(!id) {
             throw new Error('no id')
         }
