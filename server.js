@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGODB_URL)
 
 const corsOption = {
     origin: [
-        'http://localhost:3000'
+        'https://spiffy-gecko-cb142b.netlify.app/'
     ]
 }
 
